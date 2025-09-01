@@ -1,0 +1,39 @@
+.header-wrap {
+    background-image: url('/img/header-bg.jpg');
+    padding-bottom: 230px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 10px;
+    margin-bottom: 75px;
+}
+
+.header__menu {
+    display: flex;
+    width: 77px;
+    height: 29px;
+    padding: 0;
+    padding: 4px 0 4px 25px;
+    background: none;
+    border: 1px solid #008139;
+    border-radius: 3px;
+    color: #202020;
+    font-size: 15px;
+    line-height: 15px;
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+
+    &::before {
+        position: absolute;
+        display: flex;
+        content: "";
+        width: 10px;
+        height: 10px;
+        background-image: url('/img/hamburger-mobile.svg');
+        top: 8px;
+        left: 9px;
+    }
+}

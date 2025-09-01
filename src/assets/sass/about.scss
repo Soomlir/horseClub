@@ -1,0 +1,45 @@
+.about {
+    padding-top: 56px;
+}
+
+.about__heading {
+    margin: 0;
+    margin-bottom: 35px;
+    font-family: "Philosopher", "Arial", sans-serif;
+    font-size: 21px;
+    line-height: 21px;
+    color: #363434;
+    text-align: center;
+}
+
+.about__list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.about__item {
+    text-align: center;
+
+    h3 {
+        margin: 0;
+        margin-bottom: 10px;
+        font-family: "Philosopher", "Arial", sans-serif;
+        font-size: 27px;
+        line-height: 18px;
+        color: #008139;
+    }
+    
+    p {
+        margin: 0;
+        padding: 0 30px;
+        font-family: "Roboto", "Arial", sans-serif;
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 500;
+    }
+}
