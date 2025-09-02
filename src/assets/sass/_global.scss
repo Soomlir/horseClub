@@ -5,3 +5,8 @@ body {
     line-height: 20px;
     font-weight: 400;
 }
+
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+}

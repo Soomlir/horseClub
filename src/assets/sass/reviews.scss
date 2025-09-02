@@ -1,0 +1,103 @@
+.reviews {
+    padding: 65px 10px 20px;
+}
+
+.reviews__heading {
+    margin: 0;
+    margin-bottom: 29px;
+    text-align: center;
+    color: #363434;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 21px;
+    font-family: "Philosopher", "Arial", sans-serif;
+}
+
+.reviews__list {
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    list-style: none;
+}
+
+.reviews__item {
+    min-width: 300px;
+    min-height: 263px;
+    padding: 20px 15px 15px;
+    box-sizing: border-box;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    background-image: url('/img/quote.svg');
+    background-repeat: no-repeat;
+    background-position: 95% 95%;
+}
+
+.reviews__text {
+    margin: 0;
+    margin-bottom: 14px;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.reviews__button {
+    display: block;
+    width: 130px;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 26px;
+    padding-right: 50px;
+    padding-left: 17px;
+    font-size: 13px;
+    line-height: 13px;
+    color: #008139;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+
+    &::after {
+        position: absolute;
+        content: "";
+        top: 13px;
+        right: 22px;
+        width: 15px;
+        height: 10px;
+        background-image: url('/img/arrow-down.svg');
+        background-repeat: no-repeat;
+    }
+}
+
+.reviews__user {
+    display: grid;
+    grid-template-columns: 45px 1fr;
+    grid-template-rows: 20px 25px;
+    gap: 10px;
+}
+
+.reviews__name {
+    margin: 0;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.social__list {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    grid-column: 2 / -1;
+}
+
+.reviews__slider-controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 206px;
+    height: 35px;
+    margin-left: 47px;
+}

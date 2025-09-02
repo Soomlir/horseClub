@@ -1,0 +1,50 @@
+.users {
+    padding-top: 18px;
+    padding-bottom: 30px;
+}
+
+.users__heading {
+    margin: 0;
+    margin-bottom: 34px;
+    text-align: center;
+    color: #363434;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 21px;
+    font-family: "Philosopher", "Arial", sans-serif;
+}
+
+.users__slider {
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    list-style: none;
+}
+.users__slide {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+}
+
+.users__slider-controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 206px;
+    height: 35px;
+    margin: 0 auto;
+}
+
+.range {
+    width: 96px;
+    height: 8px;
+    background-color: #eaeaea;
+    border-radius: 10px;
+}
+
+.control {
+    width: 20px;
+    height: 8px;
+    border-radius: 10px;
+    background-color: #ffc700;
+}
