@@ -4,7 +4,6 @@
 }
 
 .users__heading {
-    margin: 0;
     margin-bottom: 34px;
     text-align: center;
     color: #363434;
@@ -15,11 +14,9 @@
 }
 
 .users__slider {
-    margin: 0;
     margin-bottom: 30px;
-    padding: 0;
-    list-style: none;
 }
+
 .users__slide {
     display: flex;
     flex-wrap: wrap;

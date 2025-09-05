@@ -1,55 +1,84 @@
 .about {
-    padding-top: 56px;
-    padding-bottom: 30px;
+	padding-top: 56px;
+	padding-bottom: 30px;
+
+	@media (min-width: 768px) {
+		padding-top: 45px;
+		background-image: url('/img/horse-jump-tablet.jpg');
+		background-repeat: no-repeat;
+		background-position: 0 109px;
+	}
 }
 
 .about__heading {
-    margin: 0;
-    margin-bottom: 35px;
-    font-family: "Philosopher", "Arial", sans-serif;
-    font-size: 21px;
-    line-height: 21px;
-    color: #363434;
-    text-align: center;
+	margin-bottom: 35px;
+	font-family: "Philosopher", "Arial", sans-serif;
+	font-size: 21px;
+	line-height: 21px;
+	color: #363434;
+	text-align: center;
+
+	@media (min-width: 768px) {
+		margin-bottom: 50px;
+		font-size: 26px;
+		line-height: 27px;
+	}
 }
 
 .about__list {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    list-style: none;
-    text-align: center;
-    margin: 0;
-    margin-bottom: 50px;
-    padding: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	text-align: center;
+	margin-bottom: 50px;
+
+ 	@media (min-width: 768px) {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 120px 120px;
+		width: 400px;
+		margin-left: auto;
+	}
 }
 
 .about__item {
-    text-align: center;
+	text-align: center;
 
-    h3 {
-        margin: 0;
-        margin-bottom: 10px;
-        font-family: "Philosopher", "Arial", sans-serif;
-        font-size: 27px;
-        line-height: 18px;
-        color: #008139;
-    }
+	h3 {
+		margin-bottom: 10px;
+		font-family: "Philosopher", "Arial", sans-serif;
+		font-size: 27px;
+		line-height: 18px;
+		color: #008139;
+	}
 
-    p {
-        margin: 0;
-        padding: 0 30px;
-        font-family: "Roboto", "Arial", sans-serif;
-        font-size: 12px;
-        line-height: 18px;
-        font-weight: 500;
-    }
+	p {
+		padding: 0 30px;
+		font-family: "Roboto", "Arial", sans-serif;
+		font-size: 12px;
+		line-height: 18px;
+		font-weight: 500;
+	}
+
+	@media (min-width: 768px) {
+		text-align: left;
+
+		h3 {
+			font-size: 32px;
+			line-height: 160%;
+		}
+
+		p {
+			padding: 0;
+			font-size: 13px;
+			line-height: 22px;
+		}
+	}
 }
 
 .about__text {
-    margin: 0;
-    padding: 0 10px;
-    font-size: 12px;
-    line-height: 19px;
-    color: #7e7e7e;
+	padding: 0 10px;
+	font-size: 12px;
+	line-height: 19px;
+	color: #7e7e7e;
 }

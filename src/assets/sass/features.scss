@@ -4,7 +4,6 @@
 }
 
 .features__heading {
-    margin: 0;
     margin-bottom: 6px;
     text-align: center;
     font-size: 19px;
@@ -15,13 +14,10 @@
 
 .features__subheading {
     text-align: center;
-    margin: 0;
     color: #363434;
 }
 
 .features__list {
-    margin: 0;
-    padding: 0;
     text-align: center;
 }
 
@@ -49,12 +45,7 @@
     }
 
     h3 {
-        margin: 0;
         font-weight: 500;
         color: #0b0b0b;
-    }
-
-    p {
-        margin: 0;
     }
 }

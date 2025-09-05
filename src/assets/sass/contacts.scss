@@ -17,7 +17,6 @@
 }
 
 .contacts__heading {
-    margin: 0;
     padding-bottom: 43px;
     text-align: center;
     font-size: 24px;
@@ -36,12 +35,6 @@
         bottom: 23px;
         background-color: #008139;
     }
-}
-
-.contacts__list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
 }
 
 .contacts__item {
@@ -85,7 +78,6 @@
 }
 
 .contacts__clock {
-    margin: 0;
     margin-bottom: 5px;
     color: #363434;
 }
@@ -94,10 +86,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
-    margin: 0;
     margin-top: 27px;
-    padding: 0;
-    list-style: none;
 }
 
 .content__link {

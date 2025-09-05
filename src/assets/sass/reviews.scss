@@ -3,7 +3,6 @@
 }
 
 .reviews__heading {
-    margin: 0;
     margin-bottom: 29px;
     text-align: center;
     color: #363434;
@@ -14,10 +13,7 @@
 }
 
 .reviews__list {
-    margin: 0;
     margin-bottom: 30px;
-    padding: 0;
-    list-style: none;
 }
 
 .reviews__item {
@@ -33,7 +29,6 @@
 }
 
 .reviews__text {
-    margin: 0;
     margin-bottom: 14px;
     font-size: 13px;
     line-height: 21px;
@@ -78,7 +73,6 @@
 }
 
 .reviews__name {
-    margin: 0;
     font-size: 14px;
     line-height: 21px;
     color: #000000;
@@ -87,9 +81,6 @@
 .social__list {
     display: flex;
     gap: 10px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
     grid-column: 2 / -1;
 }
 

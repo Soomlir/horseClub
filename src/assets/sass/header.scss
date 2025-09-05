@@ -1,39 +1,105 @@
 .header-wrap {
-    background-image: url('/img/header-bg.jpg');
-    padding-bottom: 230px;
+		padding-bottom: 230px;
+	background-image: url('/img/header-bg.jpg');
+
+	@media (min-width: 768px) {
+		padding-bottom: 0;
+		background-image: url('/img/header-bg-tablet.jpg');
+	}
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    padding: 14px 10px;
-    margin-bottom: 75px;
+	display: flex;
+	justify-content: space-between;
+	padding: 14px 10px;
+	margin-bottom: 75px;
+
+	@media (min-width: 768px) {
+		align-items: center;
+		margin-bottom: 0;
+		padding: 5px 20px;
+	}
+}
+
+.header__logo {
+	@media (min-width: 768px) {
+		width: 120px;
+		height: 39px;
+		margin-right: 45px;
+	}
 }
 
 .header__menu {
-    display: flex;
-    width: 77px;
-    height: 29px;
-    padding: 0;
-    padding: 4px 0 4px 25px;
-    background: none;
-    border: 1px solid #008139;
-    border-radius: 3px;
-    color: #202020;
-    font-size: 15px;
-    line-height: 15px;
-    position: relative;
-    cursor: pointer;
-    box-sizing: border-box;
+	display: flex;
+	width: 77px;
+	height: 29px;
+	padding: 4px 0 4px 25px;
+	background: none;
+	border: 1px solid #008139;
+	border-radius: 3px;
+	color: #202020;
+	font-size: 15px;
+	line-height: 15px;
+	position: relative;
+	cursor: pointer;
+	box-sizing: border-box;
 
-    &::before {
-        position: absolute;
-        display: flex;
-        content: "";
-        width: 10px;
-        height: 10px;
-        background-image: url('/img/hamburger-mobile.svg');
-        top: 8px;
-        left: 9px;
-    }
+	&::before {
+		position: absolute;
+		display: flex;
+		content: "";
+		width: 10px;
+		height: 10px;
+		background-image: url('/img/hamburger-mobile.svg');
+		top: 8px;
+		left: 9px;
+	}
+
+	@media (min-width: 768px) {
+		display: none;
+	}
+}
+
+.header__list {
+	display: none;
+
+	@media (min-width: 768px) {
+		display: flex;
+	}
+}
+
+.header__link {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #202020;
+	font-size: 11px;
+	line-height: 20px;
+}
+
+.header__info {
+	display: none;
+
+	@media (min-width: 768px) {
+		display: flex;
+		flex-wrap: wrap;
+		width: 145px;
+		padding-top: 20px;
+		padding-left: 20px;
+		box-sizing: border-box;
+	}
+}
+
+.header__phone {
+	text-decoration: none;
+	color: #202020;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 700;
+}
+
+.header__text {
+	font-size: 11px;
+	line-height: 20px;
+	color: #7d808a;
 }
