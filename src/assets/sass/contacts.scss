@@ -1,112 +1,113 @@
+@use "./_variables" as *;
+
 .contacts {
-    padding-top: 366px;
-    padding-bottom: 69px;
-    background-image: url('/img/map.jpg');
-    background-repeat: no-repeat;
-    background-color: #eaeaea;
+	padding-top: 366px;
+	padding-bottom: 69px;
+	background-image: url("/img/map.jpg");
+	background-repeat: no-repeat;
+	background-color: #eaeaea;
 }
 
 .contacts__content {
-    width: 300px;
-    min-height: 359px;
-    margin: 0 auto;
-    padding: 30px 67px;
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-sizing: border-box;
+	width: 300px;
+	min-height: 359px;
+	margin: 0 auto;
+	padding: 30px 67px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	box-sizing: border-box;
 }
 
 .contacts__heading {
-    padding-bottom: 43px;
-    text-align: center;
-    font-size: 24px;
-    line-height: 21px;
-    color: #000000;
-    font-weight: 400;
-    font-family: "Philosopher", "Arial", sans-serif;
-    position: relative;
+	padding-bottom: 43px;
+	text-align: center;
+	font-size: 24px;
+	line-height: 21px;
+	color: #000000;
+	font-weight: 400;
+	font-family: "Philosopher", "Arial", sans-serif;
+	position: relative;
 
-    &::after {
-        position: absolute;
-        content: "";
-        width: 26px;
-        height: 1px;
-        left: 70px;
-        bottom: 23px;
-        background-color: #008139;
-    }
+	&::after {
+		position: absolute;
+		content: "";
+		width: 26px;
+		height: 1px;
+		left: 70px;
+		bottom: 23px;
+		background-color: $default-green;
+	}
 }
 
 .contacts__item {
-    margin-bottom: 15px;
-    padding-left: 20px;
-    position: relative;
-    color: #363434;
+	margin-bottom: 15px;
+	padding-left: 20px;
+	position: relative;
+	color: #363434;
 
-    &::before {
-        position: absolute;
-        content: "";
-        width: 17px;
-        height: 17px;
-        background-repeat: no-repeat;
-    }
+	&::before {
+		position: absolute;
+		content: "";
+		width: 17px;
+		height: 17px;
+		background-repeat: no-repeat;
+	}
 
-    &--pin::before {
-        top: 1px;
-        left: -3px;
-        background-image: url('/img/pin.svg');
-    }
+	&--pin::before {
+		top: 1px;
+		left: -3px;
+		background-image: url("/img/pin.svg");
+	}
 
-    &--phone::before {
-        top: 4px;
-        left: -4px;
-        background-image: url('/img/phone.svg');
-    }
+	&--phone::before {
+		top: 4px;
+		left: -4px;
+		background-image: url("/img/phone.svg");
+	}
 
-    &--email::before {
-        top: 5px;
-        left: -5px;
-        background-image: url('/img/email.svg');
-    }
+	&--email::before {
+		top: 5px;
+		left: -5px;
+		background-image: url("/img/email.svg");
+	}
 
-
-    &--clock::before {
-        top: 2px;
-        left: -4px;
-        background-image: url('/img/time.svg');
-    }
+	&--clock::before {
+		top: 2px;
+		left: -4px;
+		background-image: url("/img/time.svg");
+	}
 }
 
 .contacts__clock {
-    margin-bottom: 5px;
-    color: #363434;
+	margin-bottom: 5px;
+	color: #363434;
 }
 
 .content__social {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin-top: 27px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	margin-top: 27px;
 }
 
 .content__link {
-    display: block;
-    width: 32px;
-    height: 32px;
+	display: block;
+	width: 32px;
+	height: 32px;
 
-    &--youtube {
-        background-image: url('/img/youtube.svg');
-    }
+	&--youtube {
+		background-image: url("/img/youtube.svg");
+	}
 
-    &--insta {
-        background-image: url('/img/insta.svg');
-    }
+	&--insta {
+		background-image: url("/img/insta.svg");
+	}
 
-    &--whatsup {
-        background-image: url('/img/whatsup.svg');
-    }
+	&--whatsup {
+		background-image: url("/img/whatsup.svg");
+	}
 
-    &--vk {
-        background-image: url('/img/vk.svg');
-    }
+	&--vk {
+		background-image: url("/img/vk.svg");
+	}
 }

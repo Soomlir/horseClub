@@ -1,10 +1,12 @@
+@use "./_variables" as *;
+
 .header-wrap {
-		padding-bottom: 230px;
-	background-image: url('/img/header-bg.jpg');
+	padding-bottom: 230px;
+	background-image: url("/img/header-bg.jpg");
 
 	@media (min-width: 768px) {
 		padding-bottom: 0;
-		background-image: url('/img/header-bg-tablet.jpg');
+		background-image: url("/img/header-bg-tablet.jpg");
 	}
 }
 
@@ -35,9 +37,9 @@
 	height: 29px;
 	padding: 4px 0 4px 25px;
 	background: none;
-	border: 1px solid #008139;
+	border: 1px solid $default-green;
 	border-radius: 3px;
-	color: #202020;
+	color: $default-black;
 	font-size: 15px;
 	line-height: 15px;
 	position: relative;
@@ -50,7 +52,7 @@
 		content: "";
 		width: 10px;
 		height: 10px;
-		background-image: url('/img/hamburger-mobile.svg');
+		background-image: url("/img/hamburger-mobile.svg");
 		top: 8px;
 		left: 9px;
 	}
@@ -72,7 +74,7 @@
 	padding: 10px 15px;
 	text-transform: uppercase;
 	text-decoration: none;
-	color: #202020;
+	color: $default-black;
 	font-size: 11px;
 	line-height: 20px;
 }
@@ -92,7 +94,7 @@
 
 .header__phone {
 	text-decoration: none;
-	color: #202020;
+	color: $default-black;
 	font-size: 14px;
 	line-height: 20px;
 	font-weight: 700;

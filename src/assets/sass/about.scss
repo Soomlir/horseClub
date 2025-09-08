@@ -1,10 +1,12 @@
+@use "./_variables" as *;
+
 .about {
 	padding-top: 56px;
 	padding-bottom: 30px;
 
 	@media (min-width: 768px) {
 		padding-top: 45px;
-		background-image: url('/img/horse-jump-tablet.jpg');
+		background-image: url("/img/horse-jump-tablet.jpg");
 		background-repeat: no-repeat;
 		background-position: 0 109px;
 	}
@@ -32,7 +34,7 @@
 	text-align: center;
 	margin-bottom: 50px;
 
- 	@media (min-width: 768px) {
+	@media (min-width: 768px) {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 120px 120px;
@@ -49,7 +51,7 @@
 		font-family: "Philosopher", "Arial", sans-serif;
 		font-size: 27px;
 		line-height: 18px;
-		color: #008139;
+		color: $default-green;
 	}
 
 	p {

@@ -1,318 +1,500 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Horse Club</title>
+	</head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Horse Club</title>
-</head>
+	<body>
+		<div id="app" class="page">
+			<div class="header-wrap">
+				<header class="page__header header">
+					<a href="#!">
+						<img
+							class="header__logo"
+							src="/img/logo-mobile.svg"
+							width="89"
+							height="29"
+							alt="logo Horse club."
+						/>
+					</a>
+					<button class="header__menu" type="button">Меню</button>
+					<ul class="header__list">
+						<li class="header__item">
+							<a class="header__link header__link--current" href="#!">О нас</a>
+						</li>
+						<li class="header__item">
+							<a class="header__link" href="#!">Услуги и цены</a>
+						</li>
+						<li class="header__item">
+							<a class="header__link" href="#!">Фотоальбом</a>
+						</li>
+						<li class="header__item">
+							<a class="header__link" href="#!">Контакты</a>
+						</li>
+					</ul>
 
-<body>
-	<div id="app" class="page">
-		<div class="header-wrap">
-			<header class="page__header header">
-				<a href="#!">
-					<img class="header__logo" src="/img/logo-mobile.svg" width="89" height="29" alt="logo Horse club.">
-				</a>
-				<button class="header__menu" type="button">
-					Меню
-				</button>
-				<ul class="header__list">
-					<li class="header__item"><a class="header__link header__link--current" href="#!">О нас</a></li>
-					<li class="header__item"><a class="header__link" href="#!">Услуги и цены</a></li>
-					<li class="header__item"><a class="header__link" href="#!">Фотоальбом</a></li>
-					<li class="header__item"><a class="header__link" href="#!">Контакты</a></li>
-				</ul>
-
-				<div class="header__info">
-					<a class="header__phone" href="tel:70000000000">+7 (000) 000-00-00</a>
-					<span class="header__text">Ежедневно 9:00 – 22:00</span>
-				</div>
-			</header>
-
-			<section class="page__promo promo">
-				<h1 class="promo__heading">Окунитесь в мир лошадей вместе с нами</h1>
-				<p class="promo__text">Уроки верховой езды, фотосессии и мероприятия
-					в частном конном клубе <span>г. Санкт-Петербург</span></p>
-				<a class="promo__button button" href="#!">записаться</a>
-			</section>
-		</div>
-
-		<section class="page__about about">
-			<h2 class="about__heading">О нашем клубе</h2>
-			<ul class="about__list">
-				<li class="about__item">
-					<h3>1100+</h3>
-					<p>Довольных посетителей
-						за последний год</p>
-				</li>
-				<li class="about__item">
-					<h3>50+</h3>
-					<p>Проведенных мероприятий
-						за 6 месяцев</p>
-				</li>
-				<li class="about__item">
-					<h3>20+</h3>
-					<p>Выпущенных профессиональных
-						спортсменов за 1 год</p>
-				</li>
-				<li class="about__item">
-					<h3>15+</h3>
-					<p>Регулярный занятий в неделю
-						с профессиональными наставниками</p>
-				</li>
-			</ul>
-			<p class="about__text">Занятия проводятся индивидуально и в группах, стоимость также будет зависеть от ваших
-				навыков и умений. Более
-				выгодные условия предусмотрены для регулярных занятий при покупке абонементов. Для тех, кто хочет отточить своё
-				мастерство, разработаны программы по специализации (конкур, выездка и другие), участие в соревнованиях
-				и чемпионатах. Для самых маленьких любителей лошадей действуют пони-клубы, где ребята учатся ухаживать
-				за животными и ездить на милых и добрых пони.</p>
-		</section>
-
-		<section class="page__features features">
-			<h2 class="features__heading">Почему нас выбирают</h2>
-			<p class="features__subheading">Подзаголовок блока</p>
-			<ul class="features__list">
-				<li class="features__item features__item--distance">
-					<h3>Удобное расположение</h3>
-					<p>Мы находимся недалеко от автостанции «Восточный» чтобы вам было удобно добираться</p>
-				</li>
-				<li class="features__item features__item--rest">
-					<h3>Обеденная зона</h3>
-					<p>Имеется столовая, чтобы
-						Вы могли перекусить и немного отдохнуть. Бесплатно чай, кофе, печенки</p>
-				</li>
-				<li class="features__item features__item--clock">
-					<h3>Профессиональные тренера</h3>
-					<p>Наши преподаватели имеют награды в конном спорте, и отличные отзывы среди наших учеников</p>
-				</li>
-				<li class="features__item features__item--car">
-					<h3>Бесплатная парковка</h3>
-					<p>У нас имеется просторная парковка, чтобы
-						вы могли без проблем припарковать свой автомобиль</p>
-				</li>
-			</ul>
-		</section>
-
-		<div class="variants-wrap">
-			<section class="page__variants variants">
-				<h2 class="variants__heading">Направления клуба</h2>
-				<p class="variants__subheading">Подзаголовок блока</p>
-				<ul class="variants__list">
-					<li class="variants__item">
-						<img src="/img/horse-1.jpg" width="250" height="150" alt="Девушка на лошади.">
-						<h3 class="variants__title">Уроки верховой езды</h3>
-						<p class="variants__text">Уроки профессиональной верховой езды
-							для любителей и начинающих</p>
-					</li>
-					<li class="variants__item">
-						<img src="/img/horse-2.jpg" width="250" height="150" alt="Девушка на лошади.">
-						<h3 class="variants__title">Прогулки верхом с тренером</h3>
-						<p class="variants__text">Тренировка клиентов, подготовка
-							к занятиям конным спортом на профессиональном уровне под руководством опытных теннеров</p>
-					</li>
-					<li class="variants__item">
-						<img src="/img/horse-3.jpg" width="250" height="150" alt="Девушка на лошади.">
-						<h3 class="variants__title">Фотосессии</h3>
-						<p class="variants__text">Уроки профессиональной верховой езды
-							для любителей и начинающих</p>
-					</li>
-					<li class="variants__item">
-						<img src="/img/horse-4.jpg" width="250" height="150" alt="Девушка на лошади.">
-						<h3 class="variants__title">Прогулки верхом с тренером</h3>
-						<p class="variants__text">Тренировка клиентов, подготовка
-							к занятиям конным спортом на профессиональном уровне под руководством опытных теннеров</p>
-					</li>
-					<li class="variants__item">
-						<img src="/img/horse-5.jpg" width="250" height="150" alt="Девушка на лошади.">
-						<h3 class="variants__title">Прогулки верхом с тренером</h3>
-						<p class="variants__text">Тренировка клиентов, подготовка
-							к занятиям конным спортом на профессиональном уровне под руководством опытных теннеров</p>
-					</li>
-					<li class="variants__item">
-						<img src="/img/horse-6.jpg" width="250" height="150" alt="Девушка на лошади.">
-						<h3 class="variants__title">Фотосессии</h3>
-						<p class="variants__text">Уроки профессиональной верховой езды
-							для любителей и начинающих</p>
-					</li>
-				</ul>
-				<a class="button variants__button" href="#!">записаться</a>
-			</section>
-		</div>
-
-		<section class="page__users users">
-			<h2 class="users__heading">Наши посетители</h2>
-			<ul class="users__slider">
-				<li class="users__slide">
-					<img src="/img/user-1.jpg" width="182" height="120" alt="Пользователь нашего клуба.">
-					<img src="/img/user-2.jpg" width="137" height="120" alt="Пользователь нашего клуба.">
-					<img src="/img/user-3.jpg" width="137" height="120" alt="Пользователь нашего клуба.">
-					<img src="/img/user-4.jpg" width="182" height="120" alt="Пользователь нашего клуба.">
-					<img src="/img/user-5.jpg" width="182" height="120" alt="Пользователь нашего клуба.">
-					<img src="/img/user-6.jpg" width="137" height="120" alt="Пользователь нашего клуба.">
-					<img src="/img/user-7.jpg" width="137" height="120" alt="Пользователь нашего клуба.">
-					<img src="/img/user-8.jpg" width="182" height="120" alt="Пользователь нашего клуба.">
-				</li>
-			</ul>
-			<div class="users__slider-controls">
-				<button class="slider-button"><span class="visually-hidden">left</span></button>
-				<div class="range">
-					<div class="control"></div>
-				</div>
-				<button class="slider-button slider-button--right"><span class="visually-hidden">right</span></button>
-			</div>
-		</section>
-
-		<section class="page__horses horses">
-			<h2 class="horses__heading">Наши лошади</h2>
-			<ul class="horses__list">
-				<li class="horses__item">
-					<img src="/img/our-horse-1.jpg" width="230" height="290" alt="Конь Юджин.">
-					<h3 class="horses__title">Юджин</h3>
-					<p class="horses__text">Уроки профессиональной верховой езды для любителей и начинающих</p>
-				</li>
-				<li class="horses__item">
-					<img src="/img/our-horse-1.jpg" width="230" height="290" alt="Конь Юджин.">
-					<h3 class="horses__title">Юджин</h3>
-					<p class="horses__text">Уроки профессиональной верховой езды для любителей и начинающих</p>
-				</li>
-			</ul>
-			<div class="horses__slider-controls">
-				<button class="slider-button"><span class="visually-hidden">left</span></button>
-				<div class="range">
-					<div class="control"></div>
-				</div>
-				<button class="slider-button slider-button--right"><span class="visually-hidden">right</span></button>
-			</div>
-		</section>
-
-		<section class="page__feedback feedback">
-			<form class="feedback__form" action="/" method="post">
-				<h2 class="feedback__heading">Отвечаем на вопросы</h2>
-				<p class="feedback__text">Мы ответим на все ваши вопросы по телефону, или вы можете записаться
-					на бесплатное пробное занятие</p>
-				<label>
-					<input class="feedback__input" type="text" name="name" placeholder="Ваше имя">
-				</label>
-				<label>
-					<input class="feedback__input" type="phone" name="phone" placeholder="Ваш телефон">
-				</label>
-				<button class="button feedback__button" type="submit">записаться</button>
-				<label class="feedback__label">
-					<input class="feedback__checkbox" type="checkbox" checked><span class="agree"> Даю согласие на обработку
-						данных</span>
-				</label>
-			</form>
-		</section>
-
-		<section class="page__reviews reviews">
-			<h2 class="reviews__heading">О нас говорят клиенты</h2>
-			<ul class="reviews__list">
-				<li class="reviews__item">
-					<p class="reviews__text">Развивает силу, гибкость и координацию всадника; Выпрямляется осанка
-						и повышается стрессоустойчивость; Общение с лошадью лечит умственные отклонения.</p>
-					<button class="reviews__button" type="button">Подробнее</button>
-					<div class="reviews__user">
-						<img src="/img/review-user-1.jpg" width="45" height="45" alt="Фото пользователя.">
-						<p class="reviews__name">Константин Сюткин</p>
-						<ul class="social__list">
-							<li class="social__item">
-								<a href="#!">
-									<img src="/img/social-insta.svg" width="18" height="18" alt="Instagram пользователя.">
-									<span class="visually-hidden">Instagram.</span>
-								</a>
-							</li>
-							<li class="social__item">
-								<a href="#!">
-									<img src="/img/social-vk.svg" width="18" height="18" alt="Vk пользователя.">
-									<span class="visually-hidden">Vk.</span>
-								</a>
-							</li>
-						</ul>
+					<div class="header__info">
+						<a class="header__phone" href="tel:70000000000"
+							>+7 (000) 000-00-00</a
+						>
+						<span class="header__text">Ежедневно 9:00 – 22:00</span>
 					</div>
-				</li>
-			</ul>
-			<div class="reviews__slider-controls">
-				<button class="slider-button"><span class="visually-hidden">left</span></button>
-				<div class="range">
-					<div class="control"></div>
+				</header>
+
+				<section class="page__promo promo">
+					<h1 class="promo__heading">Окунитесь в мир лошадей вместе с нами</h1>
+					<p class="promo__text">
+						Уроки верховой езды, фотосессии и мероприятия в частном конном клубе
+						<span>г. Санкт-Петербург</span>
+					</p>
+					<a class="promo__button button" href="#!">записаться</a>
+				</section>
+			</div>
+
+			<section class="page__about about">
+				<h2 class="about__heading">О нашем клубе</h2>
+				<ul class="about__list">
+					<li class="about__item">
+						<h3>1100+</h3>
+						<p>Довольных посетителей за последний год</p>
+					</li>
+					<li class="about__item">
+						<h3>50+</h3>
+						<p>Проведенных мероприятий за 6 месяцев</p>
+					</li>
+					<li class="about__item">
+						<h3>20+</h3>
+						<p>Выпущенных профессиональных спортсменов за 1 год</p>
+					</li>
+					<li class="about__item">
+						<h3>15+</h3>
+						<p>Регулярный занятий в неделю с профессиональными наставниками</p>
+					</li>
+				</ul>
+				<p class="about__text">
+					Занятия проводятся индивидуально и в группах, стоимость также будет
+					зависеть от ваших навыков и умений. Более выгодные условия
+					предусмотрены для регулярных занятий при покупке абонементов. Для тех,
+					кто хочет отточить своё мастерство, разработаны программы
+					по специализации (конкур, выездка и другие), участие в соревнованиях
+					и чемпионатах. Для самых маленьких любителей лошадей действуют
+					пони-клубы, где ребята учатся ухаживать за животными и ездить на милых
+					и добрых пони.
+				</p>
+			</section>
+
+			<section class="page__features features">
+				<h2 class="features__heading">Почему нас выбирают</h2>
+				<p class="features__subheading">Подзаголовок блока</p>
+				<ul class="features__list">
+					<li class="features__item features__item--distance">
+						<h3>Удобное расположение</h3>
+						<p>
+							Мы находимся недалеко от автостанции «Восточный» чтобы вам было
+							удобно добираться
+						</p>
+					</li>
+					<li class="features__item features__item--rest">
+						<h3>Обеденная зона</h3>
+						<p>
+							Имеется столовая, чтобы Вы могли перекусить и немного отдохнуть.
+							Бесплатно чай, кофе, печенки
+						</p>
+					</li>
+					<li class="features__item features__item--clock">
+						<h3>Профессиональные тренера</h3>
+						<p>
+							Наши преподаватели имеют награды в конном спорте, и отличные
+							отзывы среди наших учеников
+						</p>
+					</li>
+					<li class="features__item features__item--car">
+						<h3>Бесплатная парковка</h3>
+						<p>
+							У нас имеется просторная парковка, чтобы вы могли без проблем
+							припарковать свой автомобиль
+						</p>
+					</li>
+				</ul>
+			</section>
+
+			<div class="variants-wrap">
+				<section class="page__variants variants">
+					<h2 class="variants__heading">Направления клуба</h2>
+					<p class="variants__subheading">Подзаголовок блока</p>
+					<ul class="variants__list">
+						<li class="variants__item">
+							<img
+								src="/img/horse-1.jpg"
+								width="250"
+								height="150"
+								alt="Девушка на лошади."
+							/>
+							<h3 class="variants__title">Уроки верховой езды</h3>
+							<p class="variants__text">
+								Уроки профессиональной верховой езды для любителей и начинающих
+							</p>
+						</li>
+						<li class="variants__item">
+							<img
+								src="/img/horse-2.jpg"
+								width="250"
+								height="150"
+								alt="Девушка на лошади."
+							/>
+							<h3 class="variants__title">Прогулки верхом с тренером</h3>
+							<p class="variants__text">
+								Тренировка клиентов, подготовка к занятиям конным спортом на
+								профессиональном уровне под руководством опытных теннеров
+							</p>
+						</li>
+						<li class="variants__item">
+							<img
+								src="/img/horse-3.jpg"
+								width="250"
+								height="150"
+								alt="Девушка на лошади."
+							/>
+							<h3 class="variants__title">Фотосессии</h3>
+							<p class="variants__text">
+								Уроки профессиональной верховой езды для любителей и начинающих
+							</p>
+						</li>
+						<li class="variants__item">
+							<img
+								src="/img/horse-4.jpg"
+								width="250"
+								height="150"
+								alt="Девушка на лошади."
+							/>
+							<h3 class="variants__title">Прогулки верхом с тренером</h3>
+							<p class="variants__text">
+								Тренировка клиентов, подготовка к занятиям конным спортом на
+								профессиональном уровне под руководством опытных теннеров
+							</p>
+						</li>
+						<li class="variants__item">
+							<img
+								src="/img/horse-5.jpg"
+								width="250"
+								height="150"
+								alt="Девушка на лошади."
+							/>
+							<h3 class="variants__title">Прогулки верхом с тренером</h3>
+							<p class="variants__text">
+								Тренировка клиентов, подготовка к занятиям конным спортом на
+								профессиональном уровне под руководством опытных теннеров
+							</p>
+						</li>
+						<li class="variants__item">
+							<img
+								src="/img/horse-6.jpg"
+								width="250"
+								height="150"
+								alt="Девушка на лошади."
+							/>
+							<h3 class="variants__title">Фотосессии</h3>
+							<p class="variants__text">
+								Уроки профессиональной верховой езды для любителей и начинающих
+							</p>
+						</li>
+					</ul>
+					<a class="button variants__button" href="#!">записаться</a>
+				</section>
+			</div>
+
+			<section class="page__users users">
+				<h2 class="users__heading">Наши посетители</h2>
+				<ul class="users__slider">
+					<li class="users__slide">
+						<img
+							src="/img/user-1.jpg"
+							width="182"
+							height="120"
+							alt="Пользователь нашего клуба."
+						/>
+						<img
+							src="/img/user-2.jpg"
+							width="137"
+							height="120"
+							alt="Пользователь нашего клуба."
+						/>
+						<img
+							src="/img/user-3.jpg"
+							width="137"
+							height="120"
+							alt="Пользователь нашего клуба."
+						/>
+						<img
+							src="/img/user-4.jpg"
+							width="182"
+							height="120"
+							alt="Пользователь нашего клуба."
+						/>
+						<img
+							src="/img/user-5.jpg"
+							width="182"
+							height="120"
+							alt="Пользователь нашего клуба."
+						/>
+						<img
+							src="/img/user-6.jpg"
+							width="137"
+							height="120"
+							alt="Пользователь нашего клуба."
+						/>
+						<img
+							src="/img/user-7.jpg"
+							width="137"
+							height="120"
+							alt="Пользователь нашего клуба."
+						/>
+						<img
+							src="/img/user-8.jpg"
+							width="182"
+							height="120"
+							alt="Пользователь нашего клуба."
+						/>
+					</li>
+				</ul>
+				<div class="users__slider-controls">
+					<button class="slider-button">
+						<span class="visually-hidden">left</span>
+					</button>
+					<div class="range">
+						<div class="control"></div>
+					</div>
+					<button class="slider-button slider-button--right">
+						<span class="visually-hidden">right</span>
+					</button>
 				</div>
-				<button class="slider-button slider-button--right"><span class="visually-hidden">right</span></button>
-			</div>
-		</section>
+			</section>
 
-		<section class="page__contacts contacts">
-			<div class="contacts__content">
-				<h2 class="contacts__heading">Контакты</h2>
-				<ul class="contacts__list">
-					<li class="contacts__item contacts__item--pin">
-						ул. Ленина, 25, офис 65
+			<section class="page__horses horses">
+				<h2 class="horses__heading">Наши лошади</h2>
+				<ul class="horses__list">
+					<li class="horses__item">
+						<img
+							src="/img/our-horse-1.jpg"
+							width="230"
+							height="290"
+							alt="Конь Юджин."
+						/>
+						<h3 class="horses__title">Юджин</h3>
+						<p class="horses__text">
+							Уроки профессиональной верховой езды для любителей и начинающих
+						</p>
 					</li>
-					<li class="contacts__item contacts__item--phone">
-						+7 (495) 000-00-00
-					</li>
-					<li class="contacts__item contacts__item--email">
-						mail@somemail.com
-					</li>
-					<li class="contacts__item contacts__item--clock">
-						<p class="contacts__clock">Пн-Пт: 10:00 - 19:00</p>
-						<p class="contacts__clock">Сб: 10:00 - 17:00</p>
-						<p class="contacts__clock">Вс: выходной</p>
+					<li class="horses__item">
+						<img
+							src="/img/our-horse-1.jpg"
+							width="230"
+							height="290"
+							alt="Конь Юджин."
+						/>
+						<h3 class="horses__title">Юджин</h3>
+						<p class="horses__text">
+							Уроки профессиональной верховой езды для любителей и начинающих
+						</p>
 					</li>
 				</ul>
+				<div class="horses__slider-controls">
+					<button class="slider-button">
+						<span class="visually-hidden">left</span>
+					</button>
+					<div class="range">
+						<div class="control"></div>
+					</div>
+					<button class="slider-button slider-button--right">
+						<span class="visually-hidden">right</span>
+					</button>
+				</div>
+			</section>
 
-				<ul class="content__social">
-					<li class="content__item">
-						<a class="content__link content__link--youtube" href="#!">
-							<span class="visually-hidden">YouTube.</span>
-						</a>
-					</li>
-					<li class="content__item">
-						<a class="content__link content__link--insta" href="#!">
-							<span class="visually-hidden">Instagram.</span>
-						</a>
-					</li>
-					<li class="content__item">
-						<a class="content__link content__link--whatsup" href="#!">
-							<span class="visually-hidden">WhatsUp.</span>
-						</a>
-					</li>
-					<li class="content__item">
-						<a class="content__link content__link--vk" href="#!">
-							<span class="visually-hidden">Vk.</span>
-						</a>
+			<section class="page__feedback feedback">
+				<form class="feedback__form" action="/" method="post">
+					<h2 class="feedback__heading">Отвечаем на вопросы</h2>
+					<p class="feedback__text">
+						Мы ответим на все ваши вопросы по телефону, или вы можете записаться
+						на бесплатное пробное занятие
+					</p>
+					<label>
+						<input
+							class="feedback__input"
+							type="text"
+							name="name"
+							placeholder="Ваше имя"
+						/>
+					</label>
+					<label>
+						<input
+							class="feedback__input"
+							type="phone"
+							name="phone"
+							placeholder="Ваш телефон"
+						/>
+					</label>
+					<button class="button feedback__button" type="submit">
+						записаться
+					</button>
+					<label class="feedback__label">
+						<input class="feedback__checkbox" type="checkbox" checked /><span
+							class="agree"
+						>
+							Даю согласие на обработку данных</span
+						>
+					</label>
+				</form>
+			</section>
+
+			<section class="page__reviews reviews">
+				<h2 class="reviews__heading">О нас говорят клиенты</h2>
+				<ul class="reviews__list">
+					<li class="reviews__item">
+						<p class="reviews__text">
+							Развивает силу, гибкость и координацию всадника; Выпрямляется
+							осанка и повышается стрессоустойчивость; Общение с лошадью лечит
+							умственные отклонения.
+						</p>
+						<button class="reviews__button" type="button">Подробнее</button>
+						<div class="reviews__user">
+							<img
+								src="/img/review-user-1.jpg"
+								width="45"
+								height="45"
+								alt="Фото пользователя."
+							/>
+							<p class="reviews__name">Константин Сюткин</p>
+							<ul class="social__list">
+								<li class="social__item">
+									<a href="#!">
+										<img
+											src="/img/social-insta.svg"
+											width="18"
+											height="18"
+											alt="Instagram пользователя."
+										/>
+										<span class="visually-hidden">Instagram.</span>
+									</a>
+								</li>
+								<li class="social__item">
+									<a href="#!">
+										<img
+											src="/img/social-vk.svg"
+											width="18"
+											height="18"
+											alt="Vk пользователя."
+										/>
+										<span class="visually-hidden">Vk.</span>
+									</a>
+								</li>
+							</ul>
+						</div>
 					</li>
 				</ul>
-			</div>
-		</section>
+				<div class="reviews__slider-controls">
+					<button class="slider-button">
+						<span class="visually-hidden">left</span>
+					</button>
+					<div class="range">
+						<div class="control"></div>
+					</div>
+					<button class="slider-button slider-button--right">
+						<span class="visually-hidden">right</span>
+					</button>
+				</div>
+			</section>
 
-		<footer class="page__footer footer">
-			<ul class="footer__list">
-				<li class="footer__item"><a class="footer__link footer__link--current" href="#!">О нас</a></li>
-				<li class="footer__item"><a class="footer__link" href="#!">Услуги и цены</a></li>
-				<li class="footer__item"><a class="footer__link" href="#!">Фотоальбом</a></li>
-				<li class="footer__item"><a class="footer__link" href="#!">Контакты</a></li>
-			</ul>
-			<a class="footer__button" href="#!">Заказать звонок</a>
-			<a href="#!">
-				<img class="footer__logo" src="/img/logo-footer-mobile.svg" width="100" height="30" alt="Логотип horseClub">
-			</a>
-			<a class="footer__agree" href="#!">Соглашение на обработку персональных данных</a>
-			<a class="footer__political" href="#!">Политика конфенденциальности</a>
-			<p>2022</p>
-		</footer>
-	</div>
-	<script type="module" src="/src/main.js"></script>
+			<section class="page__contacts contacts">
+				<div class="contacts__content">
+					<h2 class="contacts__heading">Контакты</h2>
+					<ul class="contacts__list">
+						<li class="contacts__item contacts__item--pin">
+							ул. Ленина, 25, офис 65
+						</li>
+						<li class="contacts__item contacts__item--phone">
+							+7 (495) 000-00-00
+						</li>
+						<li class="contacts__item contacts__item--email">
+							mail@somemail.com
+						</li>
+						<li class="contacts__item contacts__item--clock">
+							<p class="contacts__clock">Пн-Пт: 10:00 - 19:00</p>
+							<p class="contacts__clock">Сб: 10:00 - 17:00</p>
+							<p class="contacts__clock">Вс: выходной</p>
+						</li>
+					</ul>
 
-	<script>
-		window.pixelperfect = {
-			breakpoints: [320, 480, 768, 1000, 1920],
-			folder: "img/pixelperfect",
-		};
-	</script>
-	<script src="https://efiand.github.io/pixelperfect-tool/pixelperfect.min.js" defer></script>
+					<ul class="content__social">
+						<li class="content__item">
+							<a class="content__link content__link--youtube" href="#!">
+								<span class="visually-hidden">YouTube.</span>
+							</a>
+						</li>
+						<li class="content__item">
+							<a class="content__link content__link--insta" href="#!">
+								<span class="visually-hidden">Instagram.</span>
+							</a>
+						</li>
+						<li class="content__item">
+							<a class="content__link content__link--whatsup" href="#!">
+								<span class="visually-hidden">WhatsUp.</span>
+							</a>
+						</li>
+						<li class="content__item">
+							<a class="content__link content__link--vk" href="#!">
+								<span class="visually-hidden">Vk.</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
 
-</body>
+			<footer class="page__footer footer">
+				<ul class="footer__list">
+					<li class="footer__item">
+						<a class="footer__link footer__link--current" href="#!">О нас</a>
+					</li>
+					<li class="footer__item">
+						<a class="footer__link" href="#!">Услуги и цены</a>
+					</li>
+					<li class="footer__item">
+						<a class="footer__link" href="#!">Фотоальбом</a>
+					</li>
+					<li class="footer__item">
+						<a class="footer__link" href="#!">Контакты</a>
+					</li>
+				</ul>
+				<a class="footer__button" href="#!">Заказать звонок</a>
+				<a href="#!">
+					<img
+						class="footer__logo"
+						src="/img/logo-footer-mobile.svg"
+						width="100"
+						height="30"
+						alt="Логотип horseClub"
+					/>
+				</a>
+				<a class="footer__agree" href="#!"
+					>Соглашение на обработку персональных данных</a
+				>
+				<a class="footer__political" href="#!">Политика конфенденциальности</a>
+				<p>2022</p>
+			</footer>
+		</div>
+		<script type="module" src="/src/main.js"></script>
 
+		<script>
+			window.pixelperfect = {
+				breakpoints: [320, 480, 768, 1000, 1920],
+				folder: "img/pixelperfect",
+			};
+		</script>
+		<script
+			src="https://efiand.github.io/pixelperfect-tool/pixelperfect.min.js"
+			defer
+		></script>
+	</body>
 </html>

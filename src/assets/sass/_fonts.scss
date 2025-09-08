@@ -1,54 +1,16 @@
-@font-face {
-  font-family: 'Philosopher';
-  src: url('../fonts/Philosopher-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+@mixin font-face($family, $filename, $weight: normal, $style: normal) {
+  @font-face {
+    font-family: $family;
+    src: url("../fonts/#{$filename}.woff2") format("woff2");
+    font-weight: $weight;
+    font-style: $style;
+    font-display: swap;
+  }
 }
 
-@font-face {
-  font-family: 'Philosopher';
-  src: url('../fonts/Philosopher-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'AlegreyaSans';
-  src: url('../fonts/AlegreyaSans-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Medium.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-
-body {
-  font-family: "Roboto", "Arial", "sans-serif";
-	font-size: 13px;
-	line-height: 20px;
-}
+@include font-face("Philosopher", "philosopher-regular", 400);
+@include font-face("Philosopher", "philosopher-bold", 700);
+@include font-face("AlegreyaSans", "alegreyasans-regular", 400);
+@include font-face("Roboto", "roboto-regular", 400);
+@include font-face("Roboto", "roboto-medium", 500);
+@include font-face("Roboto", "roboto-bold", 700);

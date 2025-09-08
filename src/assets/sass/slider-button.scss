@@ -1,26 +1,26 @@
 .slider-button {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    background: linear-gradient(90deg, #FFF8B6 0%, #FFC700 100%);
-    box-shadow: 0 1px 0 #c89c00;
-    border: none;
-    cursor: pointer;
-    position: relative;
-    display: flex;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background: linear-gradient(90deg, #fff8b6 0%, #ffc700 100%);
+	box-shadow: 0 1px 0 #c89c00;
+	border: none;
+	cursor: pointer;
+	position: relative;
+	display: flex;
 
-    &::before {
-        position: absolute;
-        content: "";
-        background-image: url('/img/arrow.svg');
-        background-repeat: no-repeat;
-        width: 7px;
-        height: 12px;
-        inset: 0;
-        margin: auto;
-    }
+	&::before {
+		position: absolute;
+		content: "";
+		background-image: url("/img/arrow.svg");
+		background-repeat: no-repeat;
+		width: 7px;
+		height: 12px;
+		inset: 0;
+		margin: auto;
+	}
 
-    &--right::before {
-        transform: scaleX(-1);
-    }
+	&--right::before {
+		transform: scaleX(-1);
+	}
 }

@@ -1,83 +1,82 @@
 .feedback {
-    padding: 100px 10px 20px;
-    background-image: url('/img/feedback-bg.jpg');
+	padding: 100px 10px 20px;
+	background-image: url("/img/feedback-bg.jpg");
 }
 
 .feedback__form {
-    min-width: 300px;
-    min-height: 425px;
-    margin-bottom: 275px;
-    padding: 40px 37px 20px;
-    box-sizing: border-box;
-    background-color: #ffffff;
-    text-align: center;
-    border-radius: 5px;
-
+	min-width: 300px;
+	min-height: 425px;
+	margin-bottom: 275px;
+	padding: 40px 37px 20px;
+	box-sizing: border-box;
+	background-color: #ffffff;
+	text-align: center;
+	border-radius: 5px;
 }
 
 .feedback__heading {
-    margin-bottom: 16px;
-    color: #363434;
-    font-size: 22px;
-    line-height: 22px;
-    font-weight: 400;
-    font-family: "Philosopher", "Arial", sans-serif;
+	margin-bottom: 16px;
+	color: #363434;
+	font-size: 22px;
+	line-height: 22px;
+	font-weight: 400;
+	font-family: "Philosopher", "Arial", sans-serif;
 }
 
 .feedback__text {
-    margin-bottom: 22px;
-    font-size: 12px;
-    line-height: 20px;
+	margin-bottom: 22px;
+	font-size: 12px;
+	line-height: 20px;
 }
 
 .feedback__input {
-    width: 225px;
-    height: 50px;
-    margin-bottom: 15px;
-    font-size: 13px;
-    line-height: 13px;
-    color: #a5a5a5;
-    padding: 19px 14px;
-    border: 1px solid #8f8f8f;
-    box-sizing: border-box;
-    border-radius: 5px;
+	width: 225px;
+	height: 50px;
+	margin-bottom: 15px;
+	font-size: 13px;
+	line-height: 13px;
+	color: #a5a5a5;
+	padding: 19px 14px;
+	border: 1px solid #8f8f8f;
+	box-sizing: border-box;
+	border-radius: 5px;
 }
 
 .feedback__button {
-    border: none;
-    margin-top: 5px;
-    margin-bottom: 23px;
-    width: 225px;
-    height: 45px;
+	border: none;
+	margin-top: 5px;
+	margin-bottom: 23px;
+	width: 225px;
+	height: 45px;
 }
 
 .feedback__checkbox {
-    appearance: none;
-    box-sizing: border-box;
-    border: 1px solid #ffc700;
-    border-radius: 2px;
-    width: 15px;
-    height: 15px;
+	appearance: none;
+	box-sizing: border-box;
+	border: 1px solid #ffc700;
+	border-radius: 2px;
+	width: 15px;
+	height: 15px;
 
-    &:checked {
-        box-sizing: border-box;
-        border: 1px solid #ffc700;
-        border-radius: 2px;
-        width: 15px;
-        height: 15px;
-        background-position: 50% 50%;
-        background-image: url('/img/ok.svg');
-        background-repeat: no-repeat;
-    }
+	&:checked {
+		box-sizing: border-box;
+		border: 1px solid #ffc700;
+		border-radius: 2px;
+		width: 15px;
+		height: 15px;
+		background-position: 50% 50%;
+		background-image: url("/img/ok.svg");
+		background-repeat: no-repeat;
+	}
 }
 
 .agree {
-    font-size: 12px;
-    line-height: 20px;
-    color: #8a8a8a;
+	font-size: 12px;
+	line-height: 20px;
+	color: #8a8a8a;
 }
 
 .feedback__label {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
