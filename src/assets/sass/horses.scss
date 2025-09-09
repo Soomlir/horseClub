@@ -13,8 +13,9 @@
 	color: #363434;
 }
 
-.horses__lSst {
+.horses__list {
 	display: flex;
+	flex-wrap: nowrap;
 	gap: 10px;
 	margin-bottom: 33px;
 }
