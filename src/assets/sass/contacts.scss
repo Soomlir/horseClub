@@ -1,11 +1,18 @@
 @use "./_variables" as *;
 
 .contacts {
-	padding-top: 366px;
+	padding-top: 50px;
 	padding-bottom: 69px;
 	background-image: url("/img/map.jpg");
 	background-repeat: no-repeat;
 	background-color: #eaeaea;
+
+	@media (min-width: 768px) {
+		background-image: url("/img/map-tablet.jpg");
+		padding-top: 0;
+		padding-top: 366px;
+		padding: 50px 20px 20px 20px;
+	}
 }
 
 .contacts__content {
@@ -16,6 +23,12 @@
 	background-color: #ffffff;
 	border-radius: 5px;
 	box-sizing: border-box;
+
+	@media (min-width: 768px) {
+		margin: 0;
+		margin-bottom: 30px;
+		width: 354px;
+	}
 }
 
 .contacts__heading {

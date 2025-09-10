@@ -35,6 +35,10 @@
 		top: -21px;
 		left: 5px;
 	}
+
+	@media (min-width: 768px) {
+		margin: 0 10px;
+	}
 }
 
 .horses__title {
@@ -70,4 +74,5 @@
 	width: 206px;
 	height: 35px;
 	margin-left: 47px;
+	margin: 0 auto;
 }

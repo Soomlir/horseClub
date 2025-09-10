@@ -1,6 +1,11 @@
 .feedback {
 	padding: 100px 10px 20px;
 	background-image: url("/img/feedback-bg.jpg");
+
+	@media (min-width: 768px) {
+		background-image: url("/img/feedback-bg-tablet.jpg");
+		padding-bottom: 500px;
+	}
 }
 
 .feedback__form {
@@ -12,6 +17,13 @@
 	background-color: #ffffff;
 	text-align: center;
 	border-radius: 5px;
+
+	@media (min-width: 768px) {
+		width: 450px;
+		margin: 0 auto;
+		padding-top: 51px;
+		padding-bottom: 64px;
+	}
 }
 
 .feedback__heading {
@@ -21,12 +33,26 @@
 	line-height: 22px;
 	font-weight: 400;
 	font-family: "Philosopher", "Arial", sans-serif;
+
+	@media (min-width: 768px) {
+		font-size: 32px;
+		line-height: 32px;
+	}
 }
 
 .feedback__text {
 	margin-bottom: 22px;
 	font-size: 12px;
 	line-height: 20px;
+
+	@media (min-width: 768px) {
+		margin: 0 auto;
+		margin-bottom: 26px;
+		width: 294px;
+		font-size: 13px;
+		line-height: 21px;
+		color: #7e7e7e;
+	}
 }
 
 .feedback__input {
@@ -40,6 +66,13 @@
 	border: 1px solid #8f8f8f;
 	box-sizing: border-box;
 	border-radius: 5px;
+
+	@media (min-width: 768px) {
+		width: 300px;
+		height: 55px;
+		padding: 19px 18px;
+		font-size: 15px;
+	}
 }
 
 .feedback__button {
@@ -48,6 +81,12 @@
 	margin-bottom: 23px;
 	width: 225px;
 	height: 45px;
+
+	@media (min-width: 768px) {
+		width: 300px;
+		height: 69px;
+		font-size: 14px;
+	}
 }
 
 .feedback__checkbox {
@@ -79,4 +118,9 @@
 .feedback__label {
 	display: flex;
 	align-items: center;
+
+	@media (min-width: 768px) {
+		width: 240px;
+		margin-left: 36px;
+	}
 }

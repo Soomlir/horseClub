@@ -16,9 +16,16 @@
 
 .reviews__list {
 	margin-bottom: 30px;
+
+	@media (min-width: 768px) {
+		display: flex;
+		gap: 20px;
+		margin: 0 20px;
+	}
 }
 
 .reviews__item {
+	margin-bottom: 30px;
 	min-width: 300px;
 	min-height: 263px;
 	padding: 20px 15px 15px;
@@ -28,6 +35,10 @@
 	background-image: url("/img/quote.svg");
 	background-repeat: no-repeat;
 	background-position: 95% 95%;
+
+	@media (min-width: 768px) {
+		width: 354px;
+	}
 }
 
 .reviews__text {
@@ -93,4 +104,10 @@
 	width: 206px;
 	height: 35px;
 	margin-left: 47px;
+	margin: 0 auto;
+
+	@media (min-width: 768px) {
+		margin-top: 40px;
+		margin-bottom: 90px;
+	}
 }

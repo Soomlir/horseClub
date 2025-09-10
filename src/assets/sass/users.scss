@@ -23,6 +23,44 @@
 	gap: 1px;
 }
 
+.users__img {
+	@media (min-width: 768px) {
+		height: 155px;
+
+		&--1 {
+			width: 223px;
+		}
+
+		&--2 {
+			width: 136px;
+		}
+
+		&--3 {
+			width: 202px;
+		}
+
+		&--4 {
+			width: 201px;
+		}
+
+		&--5 {
+			width: 185px;
+		}
+
+		&--6 {
+			width: 200px;
+		}
+
+		&--7 {
+			width: 157px;
+		}
+
+		&--8 {
+			width: 220px;
+		}
+	}
+}
+
 .users__slider-controls {
 	display: flex;
 	align-items: center;

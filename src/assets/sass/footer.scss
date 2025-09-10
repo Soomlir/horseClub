@@ -3,11 +3,27 @@
 .footer {
 	padding: 30px 20px;
 	background-color: #0b0b0b;
+
+	@media (min-width: 768px) {
+		display: flex;
+		flex-wrap: wrap;
+	}
 }
 
 .footer__list {
 	margin-bottom: 30px;
 	text-align: center;
+
+	@media (min-width: 768px) {
+		display: flex;
+		width: 400px;
+	}
+}
+
+.footer__item {
+	@media (min-width: 768px) {
+		margin-left: 20px;
+	}
 }
 
 .footer__link {
@@ -37,10 +53,15 @@
 	font: inherit;
 }
 
-.footer__logo {
+.footer__logo-wrap {
 	display: block;
 	margin: 0 auto;
+	width: 100px;
 	margin-bottom: 35px;
+
+	@media (min-width: 768px) {
+		order: -4;
+	}
 }
 
 .footer__agree,
@@ -51,4 +72,10 @@
 	line-height: 13px;
 	display: block;
 	text-align: center;
+}
+
+.footer__agree {
+	@media (min-width: 768px) {
+		margin-right: 20px;
+	}
 }

@@ -3,6 +3,13 @@
 		width: 430px;
 		padding: 40px 40px 180px 20px;
 	}
+
+	@media (min-width: 1900px) {
+		width: 1170px;
+		margin: 0 auto;
+		padding: 86px 452px 180px 0;
+		box-sizing: border-box;
+	}
 }
 
 .promo__heading {
@@ -36,6 +43,18 @@
 			bottom: -31px;
 		}
 	}
+
+	@media (min-width: 1900px) {
+		font-size: 57px;
+		line-height: 107%;
+		margin-bottom: 44px;
+
+		&::after {
+			width: 25px;
+			height: 3px;
+			bottom: -60px;
+		}
+	}
 }
 
 .promo__text {
@@ -65,10 +84,29 @@
 			color: #646464;
 		}
 	}
+
+	@media (min-width: 1900px) {
+		font-size: 24px;
+		line-height: 120%;
+		padding-left: 46px;
+		margin-bottom: 49px;
+
+		span {
+			font-size: 24px;
+		}
+	}
 }
 
 .promo__button {
 	@media (min-width: 768px) {
 		margin: 0;
+	}
+
+	@media (min-width: 1900px) {
+		width: 270px;
+		height: 70px;
+		font-size: 15px;
+		line-height: 32px;
+		padding: 20px 20px;
 	}
 }

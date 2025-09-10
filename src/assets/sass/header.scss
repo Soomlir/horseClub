@@ -8,6 +8,11 @@
 		padding-bottom: 0;
 		background-image: url("/img/header-bg-tablet.jpg");
 	}
+
+	@media (min-width: 1900px) {
+		background-image: url("/img/header-bg-desktop.jpg");
+		padding-bottom: 220px;
+	}
 }
 
 .header {
@@ -21,6 +26,11 @@
 		margin-bottom: 0;
 		padding: 5px 20px;
 	}
+
+	@media (min-width: 1900px) {
+		width: 1170px;
+		margin: 0 auto;
+	}
 }
 
 .header__logo {
@@ -28,6 +38,11 @@
 		width: 120px;
 		height: 39px;
 		margin-right: 45px;
+	}
+
+	@media (min-width: 1900px) {
+		width: 152px;
+		height: 49px;
 	}
 }
 
@@ -68,6 +83,10 @@
 	@media (min-width: 768px) {
 		display: flex;
 	}
+
+	@media (min-width: 1900px) {
+		margin-left: 169px;
+	}
 }
 
 .header__link {
@@ -77,6 +96,10 @@
 	color: $default-black;
 	font-size: 11px;
 	line-height: 20px;
+
+	@media (min-width: 1900px) {
+		font-size: 13px;
+	}
 }
 
 .header__info {
@@ -89,6 +112,18 @@
 		padding-top: 20px;
 		padding-left: 20px;
 		box-sizing: border-box;
+		position: relative;
+
+		&::before {
+			position: absolute;
+			content: "";
+			top: 25px;
+			left: 0;
+			width: 13px;
+			height: 13px;
+			display: block;
+			background-image: url("/img/phone-header.svg");
+		}
 	}
 }
 
