@@ -3,8 +3,13 @@
 	background-image: url("/img/feedback-bg.jpg");
 
 	@media (min-width: 768px) {
-		background-image: url("/img/feedback-bg-tablet.jpg");
 		padding-bottom: 500px;
+		background-image: url("/img/feedback-bg-tablet.jpg");
+	}
+
+	@media (min-width: 1900px) {
+		padding: 141px 10px 120px 710px;
+		background-image: url("/img/feedback-bg-desktop.jpg");
 	}
 }
 
@@ -24,6 +29,10 @@
 		padding-top: 51px;
 		padding-bottom: 64px;
 	}
+
+	@media (min-width: 1900px) {
+		width: 470px;
+	}
 }
 
 .feedback__heading {
@@ -37,6 +46,12 @@
 	@media (min-width: 768px) {
 		font-size: 32px;
 		line-height: 32px;
+	}
+
+	@media (min-width: 1900px) {
+		margin-bottom: 10px;
+		font-size: 35px;
+		line-height: 52px;
 	}
 }
 
@@ -52,6 +67,12 @@
 		font-size: 13px;
 		line-height: 21px;
 		color: #7e7e7e;
+	}
+
+	@media (min-width: 1900px) {
+		width: 334px;
+		margin-bottom: 20px;
+		font-size: 14px;
 	}
 }
 
@@ -73,6 +94,13 @@
 		padding: 19px 18px;
 		font-size: 15px;
 	}
+
+	@media (min-width: 1900px) {
+		width: 330px;
+		height: 64px;
+		font-size: 18px;
+		line-height: 18px;
+	}
 }
 
 .feedback__button {
@@ -86,6 +114,10 @@
 		width: 300px;
 		height: 69px;
 		font-size: 14px;
+	}
+
+	@media (min-width: 1900px) {
+		width: 333px;
 	}
 }
 

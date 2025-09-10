@@ -125,6 +125,10 @@
 			background-image: url("/img/phone-header.svg");
 		}
 	}
+
+	@media (min-width: 1900px) {
+		padding-top: 0;
+	}
 }
 
 .header__phone {

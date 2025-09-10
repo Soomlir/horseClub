@@ -5,6 +5,10 @@
 	@media (min-width: 768px) {
 		padding-top: 54px;
 	}
+
+	@media (min-width: 1900px) {
+		padding-top: 185px;
+	}
 }
 
 .features__heading {
@@ -19,11 +23,22 @@
 		font-size: 26px;
 		line-height: 27px;
 	}
+
+	@media (min-width: 1900px) {
+		margin-bottom: 21px;
+		font-size: 37px;
+		line-height: 37px;
+	}
 }
 
 .features__subheading {
 	text-align: center;
 	color: #363434;
+
+	@media (min-width: 1900px) {
+		margin-bottom: 46px;
+		font-size: 15px;
+	}
 }
 
 .features__list {
@@ -31,6 +46,11 @@
 
 	@media (min-width: 768px) {
 		display: flex;
+	}
+
+	@media (min-width: 1900px) {
+		width: 1170px;
+		margin: 0 auto;
 	}
 }
 
@@ -72,6 +92,39 @@
 		h3 {
 			margin: 0 auto;
 			margin-bottom: 20px;
+		}
+	}
+
+	@media (min-width: 1900px) {
+		&--distance {
+			background-image: url("/img/distance-desktop.svg");
+		}
+
+		&--rest {
+			background-image: url("/img/rest-desktop.svg");
+		}
+
+		&--clock {
+			background-image: url("/img/clock-desktop.svg");
+		}
+
+		&--car {
+			background-image: url("/img/car-desktop.svg");
+		}
+
+		h3 {
+			margin-top: 18px;
+			margin-bottom: 40px;
+			font-size: 19px;
+			line-height: 19px;
+		}
+
+		&:nth-child(2n) h3 {
+			width: auto;
+		}
+
+		p {
+			font-size: 14px;
 		}
 	}
 }

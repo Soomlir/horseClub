@@ -1,6 +1,10 @@
 .users {
 	padding-top: 18px;
 	padding-bottom: 30px;
+
+	@media (min-width: 1900px) {
+		padding-top: 109px;
+	}
 }
 
 .users__heading {
@@ -11,16 +15,30 @@
 	font-size: 21px;
 	line-height: 21px;
 	font-family: "Philosopher", "Arial", sans-serif;
+
+	@media (min-width: 1900px) {
+		margin-bottom: 68px;
+		font-size: 39px;
+		line-height: 40px;
+	}
 }
 
 .users__slider {
 	margin-bottom: 30px;
+
+	@media (min-width: 1900px) {
+		margin-bottom: 63px;
+	}
 }
 
 .users__slide {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 1px;
+
+	@media (min-width: 1900px) {
+		gap: 5px;
+	}
 }
 
 .users__img {
@@ -57,6 +75,42 @@
 
 		&--8 {
 			width: 220px;
+		}
+	}
+
+	@media (min-width: 1900px) {
+		height: 300px;
+
+		&--1 {
+			width: 470px;
+		}
+
+		&--2 {
+			width: 321px;
+		}
+
+		&--3 {
+			width: 359px;
+		}
+
+		&--4 {
+			width: 420px;
+		}
+
+		&--5 {
+			width: 320px;
+		}
+
+		&--6 {
+			width: 321px;
+		}
+
+		&--7 {
+			width: 369px;
+		}
+
+		&--8 {
+			width: 470px;
 		}
 	}
 }

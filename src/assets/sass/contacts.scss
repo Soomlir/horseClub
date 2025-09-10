@@ -13,6 +13,10 @@
 		padding-top: 366px;
 		padding: 50px 20px 20px 20px;
 	}
+
+	@media (min-width: 1900px) {
+		background-image: url("/img/map-desktop.jpg");
+	}
 }
 
 .contacts__content {

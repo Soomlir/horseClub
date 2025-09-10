@@ -8,10 +8,18 @@
 	@media (min-width: 768px) {
 		background-image: url("/img/block-4-bg-tablet.jpg");
 	}
+
+	@media (min-width: 1900px) {
+		background-image: url("/img/block-4-bg-desktop.jpg");
+	}
 }
 
 .variants {
 	padding: 40px 10px;
+
+	@media (min-width: 1900px) {
+		padding: 133px 10px;
+	}
 }
 
 .variants__heading {
@@ -27,6 +35,12 @@
 		font-size: 26px;
 		line-height: 27px;
 	}
+
+	@media (min-width: 1900px) {
+		margin-bottom: 21px;
+		font-size: 40px;
+		line-height: 43px;
+	}
 }
 
 .variants__subheading {
@@ -35,6 +49,11 @@
 	line-height: 120%;
 	color: #363434;
 	text-align: center;
+
+	@media (min-width: 1900px) {
+		margin-bottom: 99px;
+		font-size: 15px;
+	}
 }
 
 .variants__list {
@@ -50,6 +69,11 @@
 		flex-wrap: wrap;
 		gap: 60px 40px;
 		margin: 0 auto;
+	}
+
+	@media (min-width: 1900px) {
+		width: 1170px;
+		gap: 30px;
 	}
 }
 
@@ -67,6 +91,17 @@
 		position: absolute;
 		top: -20px;
 		left: 25px;
+	}
+
+	@media (min-width: 1900px) {
+		width: 370px;
+		margin-bottom: 50px;
+
+		img {
+			width: 320px;
+			height: 220px;
+			top: -25px;
+		}
 	}
 }
 
@@ -88,6 +123,18 @@
 		height: 1px;
 		background-color: $default-green;
 		display: block;
+	}
+
+	@media (min-width: 1900px) {
+		margin-top: 238px;
+		margin-bottom: 50px;
+		font-size: 23px;
+		line-height: 23px;
+
+		&::after {
+			left: 162px;
+			bottom: -26px;
+		}
 	}
 }
 
