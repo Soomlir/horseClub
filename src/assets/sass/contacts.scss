@@ -15,6 +15,7 @@
 	}
 
 	@media (min-width: 1900px) {
+		padding: 69px 20px 40px 378px;
 		background-image: url("/img/map-desktop.jpg");
 	}
 }
@@ -32,6 +33,14 @@
 		margin: 0;
 		margin-bottom: 30px;
 		width: 354px;
+	}
+
+	@media (min-width: 1900px) {
+		display: flex;
+		flex-direction: column;
+		width: 521px;
+		padding-top: 50px;
+		padding-bottom: 70px;
 	}
 }
 
@@ -53,6 +62,18 @@
 		left: 70px;
 		bottom: 23px;
 		background-color: $default-green;
+	}
+
+	@media (min-width: 1900px) {
+		margin-bottom: 25px;
+		font-size: 40px;
+		line-height: 40px;
+		text-align: left;
+
+		&::after {
+			left: -1px;
+			bottom: 15px;
+		}
 	}
 }
 
@@ -93,6 +114,18 @@
 		left: -4px;
 		background-image: url("/img/time.svg");
 	}
+
+	@media (min-width: 1900px) {
+		margin-bottom: 28px;
+		padding-left: 38px;
+		font-size: 18px;
+		line-height: 20px;
+
+		&::before {
+			width: 20px;
+			height: 20px;
+		}
+	}
 }
 
 .contacts__clock {
@@ -105,6 +138,11 @@
 	flex-wrap: wrap;
 	gap: 12px;
 	margin-top: 27px;
+
+	@media (min-width: 1900px) {
+		margin-top: 9px;
+		margin-left: auto;
+	}
 }
 
 .content__link {
