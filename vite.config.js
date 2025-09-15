@@ -2,7 +2,11 @@ import { defineConfig } from "vite";
 import { resolve } from "path";
 
 export default defineConfig({
-	base: "",
+	base: "./",
+	build: {
+		outDir: "dist",
+		assetsDir: "assets",
+	},
 	css: {
 		preprocessorOptions: {
 			scss: {
