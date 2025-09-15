@@ -2,15 +2,15 @@
 
 .header-wrap {
 	padding-bottom: 230px;
-	background-image: url("/img/header-bg.jpg");
+	background-image: url("../img/header-bg.jpg");
 
 	@media (min-width: 768px) {
 		padding-bottom: 0;
-		background-image: url("/img/header-bg-tablet.jpg");
+		background-image: url("../img/header-bg-tablet.jpg");
 	}
 
 	@media (min-width: 1900px) {
-		background-image: url("/img/header-bg-desktop.jpg");
+		background-image: url("../img/header-bg-desktop.jpg");
 		padding-bottom: 220px;
 	}
 }
@@ -67,7 +67,7 @@
 		content: "";
 		width: 10px;
 		height: 10px;
-		background-image: url("/img/hamburger-mobile.svg");
+		background-image: url("../img/hamburger-mobile.svg");
 		top: 8px;
 		left: 9px;
 	}
@@ -122,7 +122,7 @@
 			width: 13px;
 			height: 13px;
 			display: block;
-			background-image: url("/img/phone-header.svg");
+			background-image: url("../img/phone-header.svg");
 		}
 	}
 

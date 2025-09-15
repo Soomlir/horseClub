@@ -6,7 +6,7 @@
 
 	@media (min-width: 768px) {
 		padding-top: 45px;
-		background-image: url("/img/horse-jump-tablet.jpg");
+		background-image: url("../img/horse-jump-tablet.jpg");
 		background-repeat: no-repeat;
 		background-position: 0 109px;
 	}
@@ -14,7 +14,7 @@
 	@media (min-width: 1900px) {
 		padding: 0 300px;
 		padding-top: 55px;
-		background-image: url("/img/horse-jump-desktop.jpg");
+		background-image: url("../img/horse-jump-desktop.jpg");
 		background-position: 145px 175px;
 	}
 }

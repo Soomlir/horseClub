@@ -62,19 +62,19 @@
 	background-position: 50% 20%;
 
 	&--distance {
-		background-image: url("/img/distance.svg");
+		background-image: url("../img/distance.svg");
 	}
 
 	&--rest {
-		background-image: url("/img/rest.svg");
+		background-image: url("../img/rest.svg");
 	}
 
 	&--clock {
-		background-image: url("/img/clock.svg");
+		background-image: url("../img/clock.svg");
 	}
 
 	&--car {
-		background-image: url("/img/car.svg");
+		background-image: url("../img/car.svg");
 	}
 
 	h3 {
@@ -97,19 +97,19 @@
 
 	@media (min-width: 1900px) {
 		&--distance {
-			background-image: url("/img/distance-desktop.svg");
+			background-image: url("../img/distance-desktop.svg");
 		}
 
 		&--rest {
-			background-image: url("/img/rest-desktop.svg");
+			background-image: url("../img/rest-desktop.svg");
 		}
 
 		&--clock {
-			background-image: url("/img/clock-desktop.svg");
+			background-image: url("../img/clock-desktop.svg");
 		}
 
 		&--car {
-			background-image: url("/img/car-desktop.svg");
+			background-image: url("../img/car-desktop.svg");
 		}
 
 		h3 {

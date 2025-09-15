@@ -1,15 +1,15 @@
 .feedback {
 	padding: 100px 10px 20px;
-	background-image: url("/img/feedback-bg.jpg");
+	background-image: url("../img/feedback-bg.jpg");
 
 	@media (min-width: 768px) {
 		padding-bottom: 500px;
-		background-image: url("/img/feedback-bg-tablet.jpg");
+		background-image: url("../img/feedback-bg-tablet.jpg");
 	}
 
 	@media (min-width: 1900px) {
 		padding: 141px 10px 120px 710px;
-		background-image: url("/img/feedback-bg-desktop.jpg");
+		background-image: url("../img/feedback-bg-desktop.jpg");
 	}
 }
 
@@ -136,7 +136,7 @@
 		width: 15px;
 		height: 15px;
 		background-position: 50% 50%;
-		background-image: url("/img/ok.svg");
+		background-image: url("../img/ok.svg");
 		background-repeat: no-repeat;
 	}
 }
