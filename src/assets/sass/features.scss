@@ -6,7 +6,7 @@
 		padding-top: 54px;
 	}
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		padding-top: 185px;
 	}
 }
@@ -24,7 +24,7 @@
 		line-height: 27px;
 	}
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		margin-bottom: 21px;
 		font-size: 37px;
 		line-height: 37px;
@@ -35,7 +35,7 @@
 	text-align: center;
 	color: #363434;
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		margin-bottom: 46px;
 		font-size: 15px;
 	}
@@ -48,7 +48,7 @@
 		display: flex;
 	}
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		width: 1170px;
 		margin: 0 auto;
 	}
@@ -95,7 +95,7 @@
 		}
 	}
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		&--distance {
 			background-image: url("../img/distance-desktop.svg");
 		}

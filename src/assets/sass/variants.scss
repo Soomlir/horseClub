@@ -9,7 +9,7 @@
 		background-image: url("../img/block-4-bg-tablet.jpg");
 	}
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		background-size: cover;
 		background-image: url("../img/block-4-bg-desktop.jpg");
 	}
@@ -18,7 +18,7 @@
 .variants {
 	padding: 40px 10px;
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		padding: 133px 10px;
 	}
 }
@@ -37,7 +37,7 @@
 		line-height: 27px;
 	}
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		margin-bottom: 21px;
 		font-size: 40px;
 		line-height: 43px;
@@ -51,7 +51,7 @@
 	color: #363434;
 	text-align: center;
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		margin-bottom: 99px;
 		font-size: 15px;
 	}
@@ -72,7 +72,7 @@
 		margin: 0 auto;
 	}
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		width: 1170px;
 		gap: 30px;
 	}
@@ -94,7 +94,7 @@
 		left: 25px;
 	}
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		width: 370px;
 		margin-bottom: 50px;
 
@@ -126,7 +126,7 @@
 		display: block;
 	}
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		margin-top: 238px;
 		margin-bottom: 50px;
 		font-size: 23px;

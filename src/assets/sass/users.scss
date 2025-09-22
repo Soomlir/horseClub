@@ -2,7 +2,7 @@
 	padding-top: 18px;
 	padding-bottom: 30px;
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		padding-top: 109px;
 	}
 }
@@ -16,7 +16,7 @@
 	line-height: 21px;
 	font-family: "Philosopher", "Arial", sans-serif;
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		margin-bottom: 68px;
 		font-size: 39px;
 		line-height: 40px;
@@ -26,7 +26,7 @@
 .users__slider {
 	margin-bottom: 30px;
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		margin-bottom: 63px;
 	}
 }
@@ -36,7 +36,7 @@
 	flex-wrap: wrap;
 	gap: 1px;
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		gap: 5px;
 	}
 }
@@ -83,7 +83,55 @@
 		}
 	}
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
+		height: 250px;
+
+		&--1 {
+			width: 317px;
+		}
+
+		&--2 {
+			width: 267px;
+		}
+
+		&--3 {
+			width: 299px;
+		}
+
+		&--4 {
+			width: 350px;
+		}
+
+		&--5 {
+			width: 267px;
+		}
+
+		&--6 {
+			width: 267px;
+		}
+
+		&--7 {
+			width: 307px;
+		}
+
+		&--8 {
+			width: 309px;
+		}
+
+		&--9 {
+			display: block;
+			width: 267px;
+			height: 250px;
+		}
+
+		&--10 {
+			display: block;
+			width: 349px;
+			height: 250px;
+		}
+	}
+
+	@media (min-width: 1920px) {
 		height: 300px;
 
 		&--1 {
@@ -115,15 +163,17 @@
 		}
 
 		&--8 {
-			width: 470px;
+			width: 460px;
 		}
 
 		&--9 {
 			display: block;
+			width: 300px;
 		}
 
 		&--10 {
 			display: block;
+			width: 433px;
 		}
 	}
 }

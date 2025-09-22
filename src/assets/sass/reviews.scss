@@ -3,7 +3,7 @@
 .reviews {
 	padding: 65px 10px 20px;
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		padding: 115px 10px 20px;
 	}
 }
@@ -17,7 +17,7 @@
 	line-height: 21px;
 	font-family: "Philosopher", "Arial", sans-serif;
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		margin-bottom: 100px;
 		font-size: 40px;
 		line-height: 40px;
@@ -33,7 +33,7 @@
 		margin: 0 20px;
 	}
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		width: 1170px;
 		margin: 0 auto;
 		gap: 50px;
@@ -56,7 +56,7 @@
 		width: 354px;
 	}
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		width: 570px;
 	}
 }
@@ -66,7 +66,7 @@
 	font-size: 13px;
 	line-height: 21px;
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		font-size: 15px;
 		line-height: 24px;
 	}

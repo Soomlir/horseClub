@@ -11,10 +11,16 @@
 		background-position: 0 109px;
 	}
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		padding: 0 300px;
 		padding-top: 55px;
 		background-image: url("../img/horse-jump-desktop.jpg");
+		background-position: 0 175px;
+	}
+
+	@media (min-width: 1920px) {
+		padding: 0 300px;
+		padding-top: 55px;
 		background-position: 145px 175px;
 	}
 }
@@ -33,7 +39,7 @@
 		line-height: 27px;
 	}
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		font-size: 39px;
 	}
 }
@@ -54,7 +60,12 @@
 		margin-left: auto;
 	}
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
+		width: 540px;
+		margin-top: 88px;
+	}
+
+	@media (min-width: 1920px) {
 		width: 613px;
 		margin-top: 88px;
 	}
@@ -95,7 +106,7 @@
 		}
 	}
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		width: 256px;
 		margin-bottom: 34px;
 
@@ -121,11 +132,15 @@
 		padding: 0 20px;
 	}
 
-	@media (min-width: 1900px) {
-		width: 613px;
+	@media (min-width: 1400px) {
+		width: 540px;
 		margin-left: auto;
 		padding: 0 10px;
 		font-size: 16px;
 		line-height: 28px;
+	}
+
+	@media (min-width: 1920px) {
+		width: 613px;
 	}
 }

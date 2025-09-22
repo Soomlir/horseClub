@@ -9,7 +9,7 @@
 		background-image: url("../img/header-bg-tablet.jpg");
 	}
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		background-image: url("../img/header-bg-desktop.jpg");
 		padding-bottom: 220px;
 	}
@@ -27,7 +27,7 @@
 		padding: 5px 20px;
 	}
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		width: 1170px;
 		margin: 0 auto;
 	}
@@ -40,7 +40,7 @@
 		margin-right: 45px;
 	}
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		width: 152px;
 		height: 49px;
 	}
@@ -84,7 +84,7 @@
 		display: flex;
 	}
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		margin-left: 169px;
 	}
 }
@@ -95,9 +95,8 @@
 	text-decoration: none;
 	color: $default-black;
 	font-size: 11px;
-	line-height: 20px;
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		font-size: 13px;
 	}
 }
@@ -126,7 +125,7 @@
 		}
 	}
 
-	@media (min-width: 1900px) {
+	@media (min-width: 1440px) {
 		padding-top: 0;
 	}
 }
